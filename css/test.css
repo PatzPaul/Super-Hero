@@ -1,0 +1,17 @@
+body{background-color:whitesmoke;
+}
+h1{
+    font-size: 50px;
+    color: green;
+}
+h2{
+    font-size:x-large;
+    color: royalblue;
+}
+h3{font-size: 50px;
+    color: slateblue;
+}
+span{
+    font-size: x-large;
+    color: violet;
+}
