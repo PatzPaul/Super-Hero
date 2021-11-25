@@ -1,12 +1,55 @@
-body{background-color:whitesmoke;
+body{
+    text-align: center;
+     background-image: linear-gradient(seashell,rgb(141, 57, 141));
+     ;
+
+}
+header{ background-color: seashell;
+    
+}
+main{ font-family: fantasy, Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+
+
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 55px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+span {color: black;}
+span img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        opacity: 0.5;
+    
+}
+img{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid transparent;
 }
 h1{
-    font-size: 50px;
-    color: green;
+    font-size: 80px;
+    color:rgba(95, 23, 95, 0.363);
+    text-align: center;
+    font-family:cursive
 }
 h2{
-    font-size:x-large;
-    color: royalblue;
+    font-size:60px;
+    color: rgb(51, 67, 114);
+    font-family:fantasy, Calibri, 'Trebuchet MS', sans-serif;
+
 }
 h3{font-size: 50px;
     color: slateblue;
