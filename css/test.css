@@ -1,18 +1,26 @@
+/*body styles*/
 body{
     text-align: center;
      background-image: linear-gradient(seashell,rgb(141, 57, 141));
-     ;
-
+     font-family:fantasy, Calibri, 'Trebuchet MS', sans-serif;
+     
 }
+/*header styles*/
 header{ background-color: seashell;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
     
 }
-main{ font-family: fantasy, Calibri, 'Trebuchet MS', sans-serif;
+/*main styles*/
+main{ 
     color: black;
     font-size: 20px;
+    margin: 0 auto;
 
 
 }
+/*div row & column  styles*/
 .column {
     float: left;
     width: 40%;
@@ -24,6 +32,7 @@ main{ font-family: fantasy, Calibri, 'Trebuchet MS', sans-serif;
     clear: both;
     display: table;
   }
+  /*span and span img styles*/
 span {color: black;}
 span img {
         display: block;
@@ -31,33 +40,58 @@ span img {
         margin-right: auto;
         width: 50%;
         opacity: 0.5;
+        border-radius: 150px;
+        border: 10px;
     
 }
 img{ display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: solid transparent;
+    border-radius: 170px;
+    opacity: 0.8;
+
 }
+/*h1 styles*/
 h1{
     font-size: 80px;
     color:rgba(95, 23, 95, 0.363);
     text-align: center;
     font-family:cursive
 }
+/*h2 styles*/
 h2{
     font-size:60px;
     color: rgb(51, 67, 114);
-    font-family:fantasy, Calibri, 'Trebuchet MS', sans-serif;
 
 }
+/*h3 styles*/
 h3{font-size: 50px;
     color: slateblue;
 }
+/*h4 styles*/
 h4{
     font-size: x-large;
 }
-span{
-    font-size: x-large;
-    color: violet;
+/*footer styles*/
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: seashell;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image:repeating-linear-gradient(seashell,rgba(240, 12, 240, 0.733));
+    opacity: 0.6;
+
+}
+/*footer paragraph styles*/
+footer p {margin: 0;
+}
+/*link styles*/
+a{
+    color: purple;
+}
+a:hover{
+    color: rgb(184, 134, 43);
+    background-color: rgba(78, 20, 133, 0.89),transparent;
 }
